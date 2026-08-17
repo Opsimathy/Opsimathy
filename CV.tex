@@ -1,10 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
-
 \documentclass[letterpaper,11pt]{article}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{latexsym}
@@ -19,55 +12,29 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
-
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
-
 \urlstyle{same}
-
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
-
-% Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
-
-%-------------------------
-% Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
     {#1 \vspace{-2pt}}
   }
 }
-
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -75,64 +42,43 @@
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
-
 \newcommand{\resumeSubheadingg}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
-
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
-
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
-
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{document}
-
-%----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
     \textbf{\Huge \scshape Li Jiaru} \\
     \small (+65) 8039 4376 $|$ \href{mailto:jiaru.li@u.nus.edu}{\underline{jiaru.li@u.nus.edu}} $|$ 
     \href{https://github.com/Opsimathy}{\underline{github.com/Opsimathy}}
 \end{center}
-
-
-%-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {National University of Singapore}{Aug. 2025 -- Jan. 2027 (Expected)}
-      {Master of Computing, General Track (Current GPA: 4.40/5.00)}{Singapore}
+      {National University of Singapore}{Aug. 2025 -- Dec. 2026 (Expected)}
+      {Master of Computing, General Track (Current GPA: 4.42/5.00)}{Singapore}
       \resumeItemListStart
-        \resumeItem{Course Highlights: Algorithmic Mechanism Design, The Algorithm Designer's Toolkit, Quantum Computing, etc.}
+        \resumeItem{Course Highlights: Algorithmic Mechanism Design, The Algorithm Designer's Toolkit, Quantum Computing, Algorithms at Scale, etc.}
       \resumeItemListEnd
     \resumeSubheading
       {Imperial College London}{Oct. 2022 -- Jun. 2025}
@@ -141,31 +87,23 @@
         \resumeItem{Course Highlights: Principles of Programming, Network Science, Numerical Analysis, Optimisation, Scientific Computation, Methods for Data Science, Introduction to Game Theory, Classical Dynamics, Quantum Mechanics, etc.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
-
-
-%-----------EXPERIENCE-----------
 \section{Research Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
       {Master's Thesis (under Internal Capstone)}{Jan. 2026 -- Dec. 2026 (Expected)}
       {AGORAi Lab, National University of Singapore}{Singapore}
       \resumeItemListStart
-        \resumeItem{Topics: Algorithmic/Computational Game Theory, Games of Unawareness, Dynamics of Learning and Games, etc.}
-        \resumeItem{Ongoing project at AGORAi (Algorithms, Games, Operations Research, Artificial Intelligence) Lab under supervision of \href{https://lingchunkai.github.io}{Prof. Chun Kai Ling}.}
+        \resumeItem{Ongoing project at AGORAi Lab under supervision of \href{https://lingchunkai.github.io}{Prof. Chun Kai Ling} on computational game theory and learning.}
       \resumeItemListEnd
-
     \resumeSubheading
       {Group Research Project}{Jun. 2024}
       {Imperial College London}{London, UK}
       \resumeItemListStart
         \resumeItem{Title: Scientific Machine Learning: Neural Networks and Neural Differential Equations [\href{https://github.com/jaamestaay/M2R-Group-29}{\underline{Link}}].}
-        \resumeItem{Explored both theoretical foundations and practical applications of selected scientific machine learning models, integrating continuous‑time dynamical systems with modern neural network architectures.}
-        \resumeItem{Investigated neural networks, neural ODEs and neural CDEs, analysing their history, formulation, training dynamics, advantages and disadvantages especially for modelling irregularly sampled time-series data.}
+        \resumeItem{Explored both theoretical foundations and practical applications of selected scientific machine learning models, including neural networks, neural ODEs and neural CDEs, analysing their history, formulation, training dynamics, advantages and disadvantages especially for modelling irregularly sampled time-series data.}
         \resumeItem{Served as group leader, coordinating directions, delegating tasks, and facilitating communication within the team.}
         \resumeItem{Co-authored and co-edited the report and the presentation, contributing to both the writing and the formatting.}
       \resumeItemListEnd
-
     \resumeSubheading
       {Individual Research Project}{Jun. 2023}
       {Imperial College London}{London, UK}
@@ -175,52 +113,43 @@
         \resumeItem{Proposed a divide-and-conquer improvement, reducing the computational complexity from $O(n^2)$ to $O(n\log n)$.}
         \resumeItem{Produced and presented a research poster summarising theoretical results and algorithmic design.}
     \resumeItemListEnd
-
   \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------
-\section{Work Experience}
+\section{Publications}
   \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Full‑Stack Developer Internship}{Jul. 2024 -- Sep. 2024}
-      {Sonli Holding Group Co., Ltd.}{Qingdao, China}
+    \resumeProjectHeading
+      {\textbf{Computing Equilibria in Games with Stochastic Action Sets}}{Aug. 2026}
       \resumeItemListStart
-        \resumeItem{Developed and maintained digital solutions for smart parking and smart community applications.}
-        \resumeItem{Built features across frontend and backend systems, contributing to improved operational efficiency and user experience.}
-        \resumeItem{Collaborated with cross-functional teams to deploy and monitor production systems.}
+        \resumeItem{Thomas Schwarz, \textbf{Jiaru Li}, Ryann Sim, Chun Kai Ling. Submitted to AAAI 2027.}
       \resumeItemListEnd
-
+    \resumeProjectHeading
+      {\textbf{Equilibrium Computation in Extensive-Form Games with Stochastic Action Sets}}{Aug. 2026}
+      \resumeItemListStart
+        \resumeItem{Thomas Schwarz, \textbf{Jiaru Li}, Ryann Sim, Chun Kai Ling. Manuscript.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Correlated Equilibria in Games with Stochastic Action Sets}}{Sep. 2026 (Expected)}
+      \resumeItemListStart
+        \resumeItem{\textbf{Jiaru Li}, Chun Kai Ling. Manuscript in preparation.}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
-
 \section{Awards \& Honours}
   \resumeSubHeadingListStart
-
     \resumeSubheadingg
       {UK University Integration Bee}{Feb. 2023}{}{}
       \resumeItemListStart
         \resumeItem{Obtained third place in the final round of the contest across a number of teams from UK universities, leading the university's team as a first year student \href{https://integration.soc.srcf.net/pastcomp.html}{[\underline{Link}]}.}
       \resumeItemListEnd
-
     \resumeSubheadingg
       {National Olympiad in Informatics in Provinces (NOIP)}{Nov. 2017}{}{}
       \resumeItemListStart
         \resumeItem{Obtained first prize as a grade 8 student in the junior group of the competitive programming competition for high school students at provincial level in China \href{https://www.noi.cn/ccf/file/do?fid=njQeyabh&attach=n}{[\underline{Link}]}.}
       \resumeItemListEnd
-
   \resumeSubHeadingListEnd
-
-%
-%-----------PROGRAMMING SKILLS-----------
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Programming}{: Python (advanced), C/C++ (advanced), Java (intermediate), R (intermediate), Julia (intermediate)} \\
-     \textbf{Languages}{: Chinese (native), English (proficient), Japanese (intermediate [JLPT N3]), \LaTeX\ (advanced)} \\
+     \textbf{Languages}{: Chinese (native), English (proficient), Japanese (intermediate)}
     }}
  \end{itemize}
-
-
-%-------------------------------------------
 \end{document}
